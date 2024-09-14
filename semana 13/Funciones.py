@@ -1,11 +1,11 @@
 # Crear una matriz 3D para almacenar datos de temperaturas
 # Primera dimensión: Ciudades (3 ciudades)
-# Segunda dimensión: Días de la semana (7 días)
-# Tercera dimensión: Semanas (4 semanas)
+# Segunda dimensión: Semanas (4 semanas)
+# Tercera dimensión: Días de la semana (7 días)
 temperaturas = [
     [   # Ciudad 1
         [   # Semana 1
-            {"day": "Lunes", "temp": 78},
+            {"day": "Lunes", "temp": 40},
             {"day": "Martes", "temp": 80},
             {"day": "Miércoles", "temp": 82},
             {"day": "Jueves", "temp": 79},
@@ -52,7 +52,7 @@ temperaturas = [
             {"day": "Domingo", "temp": 79}
         ],
         [   # Semana 2
-            {"day": "Lunes", "temp": 63},
+            {"day": "Lunes", "temp": 53},
             {"day": "Martes", "temp": 66},
             {"day": "Miércoles", "temp": 70},
             {"day": "Jueves", "temp": 72},
@@ -81,8 +81,8 @@ temperaturas = [
     ],
     [   # Ciudad 3
         [   # Semana 1
-            {"day": "Lunes", "temp": 90},
-            {"day": "Martes", "temp": 92},
+            {"day": "Lunes", "temp": 40},
+            {"day": "Martes", "temp": 82},
             {"day": "Miércoles", "temp": 94},
             {"day": "Jueves", "temp": 91},
             {"day": "Viernes", "temp": 88},
@@ -91,7 +91,7 @@ temperaturas = [
         ],
         [   # Semana 2
             {"day": "Lunes", "temp": 89},
-            {"day": "Martes", "temp": 91},
+            {"day": "Martes", "temp": 61},
             {"day": "Miércoles", "temp": 93},
             {"day": "Jueves", "temp": 90},
             {"day": "Viernes", "temp": 87},
@@ -119,13 +119,27 @@ temperaturas = [
     ]
 ]
 
-# funcion para calcular el promedio del ejercicio de la semana 13
-def calcular_promedio(temperaturas,ciudad_idx):
-    suma_temperaturas=0
-    total_dias=0
 
-    # Recorrer las semanas
-    for semana in ciudad:
-        for dia in semana:
-            suma_temperaturas+=dia['tem']
-            total_dias
+# Calcular el promedio de temperaturas para cada ciudad y semana
+ciudades = ["Ciudad 1", "Ciudad 2", "Ciudad 3"]
+for ciudad_idx, ciudad in enumerate(temperaturas):
+    for semana_idx, semana in enumerate(ciudad):
+        suma_temperaturas = sum([dia["temp"] for dia in semana])
+        promedio = suma_temperaturas / len(semana)
+        print(f"Promedio de temperaturas en {ciudades[ciudad_idx]}, Semana {semana_idx + 1}: {promedio:.2f} grados")
+while True:
+    print("\nSeleccione una ciudad:")
+    print("1. Ciudad 1")
+    print("2. Ciudad 2")
+    print("3. Ciudad 3")
+    print("4. salir")
+
+    opcion=input("ingrese la opcion:")
+    if opcion=="1":
+        calcular_promedio(temperaturas[0])
+    elif opcion=="2":
+        calcular_promedio(temperaturas[1])
+    elif opcion=="3":
+        calcular_promedio(temperaturas[2])
+
+
