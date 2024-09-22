@@ -52,7 +52,7 @@ temperaturas = [
             {"day": "Domingo", "temp": 79}
         ],
         [   # Semana 2
-            {"day": "Lunes", "temp": 63},
+            {"day": "Lunes", "temp": 53},
             {"day": "Martes", "temp": 66},
             {"day": "Miércoles", "temp": 70},
             {"day": "Jueves", "temp": 72},
@@ -81,8 +81,8 @@ temperaturas = [
     ],
     [   # Ciudad 3
         [   # Semana 1
-            {"day": "Lunes", "temp": 90},
-            {"day": "Martes", "temp": 92},
+            {"day": "Lunes", "temp": 40},
+            {"day": "Martes", "temp": 82},
             {"day": "Miércoles", "temp": 94},
             {"day": "Jueves", "temp": 91},
             {"day": "Viernes", "temp": 88},
@@ -91,7 +91,7 @@ temperaturas = [
         ],
         [   # Semana 2
             {"day": "Lunes", "temp": 89},
-            {"day": "Martes", "temp": 91},
+            {"day": "Martes", "temp": 61},
             {"day": "Miércoles", "temp": 93},
             {"day": "Jueves", "temp": 90},
             {"day": "Viernes", "temp": 87},
