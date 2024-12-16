@@ -87,16 +87,15 @@ main_poo()
 
 """
 1. Organización del Código:
-   - En la Programación Tradicional, el código está estructurado en funciones separadas, lo que facilita su lectura y mantenimiento para tareas simples.
-   - En la POO, la lógica y los datos están encapsulados en una clase, lo que favorece la modularidad y la reutilización en proyectos más complejos.
+En la Programación Tradicional, el código está estructurado en funciones separadas, lo que facilita su lectura y mantenimiento para tareas simples.
+En la POO, la lógica y los datos están encapsulados en una clase, lo que favorece la modularidad y la reutilización en proyectos más complejos.
 
 2. Escalabilidad:
-   - La POO permite extender el programa con nuevas funcionalidades (por ejemplo, agregar descuentos o aplicar impuestos) sin afectar directamente el resto del código.
-   - La versión tradicional puede requerir reestructuración significativa al agregar funcionalidades más complejas.
+La POO permite extender el programa con nuevas funcionalidades (por ejemplo, agregar descuentos o aplicar impuestos) sin afectar directamente el resto del código.
+ La versión tradicional puede requerir reestructuración significativa al agregar funcionalidades más complejas.
 
 3. Simplicidad:
-   - La Programación Tradicional es más directa y adecuada para problemas sencillos.
-   - La POO introduce cierta complejidad inicial, pero ofrece mayor flexibilidad y claridad a largo plazo en proyectos grandes.
-
-En resumen, ambas aproximaciones son válidas, pero la elección depende del contexto y la escala del proyecto. Para problemas pequeños, la Programación Tradicional es más adecuada; para sistemas más robustos y escalables, la POO es la mejor opción.
+La Programación Tradicional es más directa y adecuada para problemas sencillos.
+ La POO introduce cierta complejidad inicial, pero ofrece mayor flexibilidad y claridad a largo plazo en proyectos 
+ 
 """
